@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-control {
+    @apply block rounded-full text-lg focus:border-blue-200 focus:outline-none focus:ring-4
+    focus:ring-blue-50 focus:ring-offset-0 w-full px-5 py-4 text-sm text-neutral-600
+    placeholder-gray-300 transition duration-300 ease-in-out border border-gray-200 bg-white;
+}
